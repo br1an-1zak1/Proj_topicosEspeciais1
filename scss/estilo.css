@@ -98,14 +98,14 @@ table {
   border-spacing: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .img {
   width: 35vw;
   margin-bottom: 5vh;
-}
-
-.img img {
-  display: block;
-  width: 100%;
 }
 
 .titulo {
@@ -146,7 +146,7 @@ table {
 }
 
 body {
-  background-color: #E8E3E7;
+  background-color: #e8e3e7;
   font-family: "Arvo", serif;
   font-size: 1.125em;
   line-height: 1.125em;
@@ -159,19 +159,20 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: 1 / 2 / 2 / 4;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  margin: 0 0 0 10px;
   background: #212121;
 }
 
 .header .titulo {
   font-weight: bold;
   font-size: 1.8em;
-  color: #E8E3E7;
+  color: #e8e3e7;
 }
 
 .aside {
-  background-color: #332E2E;
+  background-color: #332e2e;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -192,11 +193,14 @@ body {
           flex-flow: column nowrap;
 }
 
-.aside .segura .icone_social {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+.aside .segura-subtitulo .icone_social {
+  width: 100%;
+  margin: 20px;
+}
+
+.aside .segura-subtitulo .icone_social .social {
+  max-width: 50px;
+  margin: 10px;
 }
 
 .main {
@@ -230,14 +234,20 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-.main .banner .canvas {
-  margin-bottom: 1.125em;
+.main .banner .canvas_fundo {
+  background: #000;
+  margin: 0;
+}
+
+.main .banner .canvas_fundo canvas {
+  cursor: crosshair;
+  display: block;
 }
 
 .main .banner .texto {
   width: 50vw;
   text-align: center;
-  color: #E8E3E7;
+  color: #e8e3e7;
 }
 
 .main .content_1 {
@@ -272,8 +282,9 @@ body {
   color: #212121;
 }
 
-.main .content_1::before, .main .content_2::before {
-  content: '';
+.main .content_1::before,
+.main .content_2::before {
+  content: "";
   display: block;
   width: 60px;
   height: 10px;
@@ -292,6 +303,6 @@ body {
 
 .footer .texto {
   text-align: center;
-  color: #E8E3E7;
+  color: #e8e3e7;
 }
 /*# sourceMappingURL=estilo.css.map */
