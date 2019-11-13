@@ -13,7 +13,7 @@
 <body class="conteiner_grid">
 
 
-  <header class="header flex row">
+  <header id="ini" class="header flex row">
     <h1 class="titulo">Armazém de drinks</h1>
 
   </header>
@@ -22,13 +22,13 @@
     <div class="segura-subtitulo">
       <ul class="menu flex column">
         <li class="item_menu">
-          <a href="">Inicio</a>
+          <a href="#ini">Inicio</a>
         </li>
         <li class="item_menu">
-          <a href="">Sessão 1</a>
+          <a href="#sec1">Sessão 1</a>
         </li>
         <li class="item_menu">
-          <a href="">Sessão 2</a>
+          <a href="#sec2">Sessão 2</a>
         </li>
       </ul>
       <div class="icone_social flex row">
@@ -48,7 +48,7 @@
   <main class="main main_container">
     <section class="banner">
       <div class="banner_efeito flex column">
-
+        <h1 class="titulo">Bebidas nacionais e artesanais</h1>
 
         <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit excepturi ipsum natus
           facere nisi expedita quisquam asperiores dolorum, consequuntur officia! Lorem ipsum dolor, sit amet
@@ -61,25 +61,24 @@
       <canvas id="canvas">Canvas is not supported in your browser.</canvas>
     </div>
 
-    <section class="content_1 flex column">
-      <h1 class="titulo">Titulo Sessão 1</h1>
-      <div class="flex row">
-        <div class="img">
-          <img src="img/cerv1.jpeg" alt="bebida 1">
-        </div>
+    <section id="sec1" class="content_1 ">
+      <h1 class="titulo">Bebida que chegou!</h1>
+      <div class="container_sec">
+
+        <img class="img" src="img/cerv1.jpeg" alt="bebida 1">
+
         <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatem
           officiis nam, veniam maiores dignissimos perspiciatis accusantium earum maxime porro!</p>
       </div>
     </section>
 
-    <section class="content_2 flex column">
-      <h1 class="titulo">Titulo Sessão 1</h1>
-      <div class="flex row">
+    <section id="sec2" class="content_2 ">
+      <h1 class="titulo">A mais pedida</h1>
+      <div class="container_sec">
         <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatem
           officiis nam, veniam maiores dignissimos perspiciatis accusantium earum maxime porro!</p>
-        <div class="img">
-          <img src="img/cerv2.jpg" alt="bebida 1">
-        </div>
+
+        <img class="img" src="img/cerv2.jpg" alt="bebida 1">
       </div>
     </section>
   </main>
