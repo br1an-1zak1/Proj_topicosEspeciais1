@@ -61,7 +61,7 @@ img {
   font-weight: bold;
   font-size: 2em;
   margin: 15px;
-  color: #e8e3e7;
+  color: black;
 }
 
 .flex {
@@ -202,7 +202,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 4 / 2;
-  background: #000;
+  background: #000000;
   z-index: -1;
   margin: 0;
 }
@@ -231,13 +231,13 @@ body {
 
 .main .banner .banner_efeito {
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(224, 188, 188, 0.7);
 }
 
 .main .banner .texto {
   width: 50vw;
   text-align: center;
-  color: #e8e3e7;
+  color: #2b2229;
 }
 
 .main .container_sec {
@@ -308,7 +308,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: 3 / 1 / 4 / 4;
-  background-color: #212121;
+  background-color:#212121;
 }
 
 .footer .texto {
