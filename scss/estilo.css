@@ -147,7 +147,7 @@ img {
 }
 
 body {
-  background-color: #000000;
+  background-color: #332e2e;
   z-index: -2;
   font-family: "Arvo", serif;
   font-size: 1.125em;
@@ -220,7 +220,7 @@ body {
 
 .aside .menu .item_menu a {
   text-decoration: none;
-  color: #e8e3e7;
+  color: blue;
   padding: 15px;
   -webkit-transition: 400ms ease-in;
   transition: 400ms ease-in;
